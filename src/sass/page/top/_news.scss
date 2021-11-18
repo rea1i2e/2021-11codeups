@@ -1,0 +1,110 @@
+.news__l-inner {
+  // background-color: blue;
+  // margin-bottom: rem(112);
+  @include mq("md") {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.news__wrapper {
+  // background-color: lime;
+  font-size: 0;
+  // padding: rem(24) rem(20) 0 rem(20);
+  text-align: left;
+  @include mq("md") {
+    align-items: flex-start;
+    display: flex;
+    flex-shrink: 1;
+    padding: 0;
+    // width: 100%;
+  }
+}
+
+.news__date {
+  // background: yellowgreen;
+  display: inline-block;
+  font-size: rem(16);
+  width: rem(80);
+  @include mq("md") {
+    flex-shrink: 0;
+    line-height: rem(31);
+  }
+}
+
+.news__category {
+  // background-color: pink;
+  border: solid rem(1) $white;
+  display: inline-block;
+  font-size: rem(14);
+  // line-height: rem(29);
+  text-align: center;
+  margin-left: rem(32);
+  margin-bottom: rem(16);
+  padding: rem(4) rem(20.5);
+  // padding: 0 rem(20.5);
+  // width: rem(99);
+  // height: rem(31);
+  @include mq("md") {
+    flex-shrink: 0;
+    font-weight: $figma-medium;
+    margin-bottom: 0;
+    margin-left: rem(48);
+  }
+}
+
+.news__title {
+  // background-color: skyblue;
+  text-align:  left;
+  font-size: rem(16);
+  line-height: 1.45;
+  line-height: calc( 23 / 16 );
+  margin-bottom: rem(28);
+  @include mq("md") {
+    flex-shrink: 1;
+    margin-bottom: 0;
+    margin-left: rem(61);
+    // padding-right: 2em;
+    padding-top: rem(3.5);
+    // padding-bottom: rem(7.5);
+  }
+}
+
+.news__link:hover {
+  text-decoration: underline;
+}
+
+.news__btn {
+  width:100%;
+  @include mq("md") {
+    margin-left: rem(48);
+    width: rem(134);
+  }
+}
+
+// .news__show-all {
+//   background-color: $black3;
+//   border: 1px solid $white;
+//   display: inline-block;
+//   font-size: rem(20);
+//   font-weight: $figma-regular;
+//   letter-spacing: 0.1em;
+//   line-height: 1;
+//   transition: .3s;
+//   padding: rem(14) rem(111.5) rem(14) rem(113);
+//   position: relative;
+//   @include mq("md") {
+//     background-color: $white; // .btnにはない指定
+//     border-color: $white; // .btnにはない指定
+//     color: $black0; // .btnにはない指定
+//     letter-spacing: 0; // .btnにはない指定
+//     line-height: rem(28); // .btnにはない指定
+//     width: 134px; // .btnにはない指定（異なる指定がある）
+//     padding: 0; // .btnにはない指定（異なる指定がある）
+//     font-size: rem(16);
+//     font-weight: $figma-medium;
+//     flex-shrink: 0;
+// 	}
+// }
+

@@ -1,0 +1,30 @@
+//layer-no
+// 0 body
+// 1 header,section,footer
+// 2 ex) .header__header-inner
+// 3 ex) .btn
+
+// .btn
+$layer3-btn: -1;
+
+// .background-line
+$layer1-background-line: -1;
+
+// body
+$layer0-body: 0;
+
+// header
+$layer1-header: 2;
+$layer2-header: 2;
+
+// header-nav
+$layer2-nav: 1;
+
+// main-view
+$layer1-mainveiw-base: -1;
+$layer1-mainveiw-fadeout: 1;
+$layer1-mainveiw-fadein: 2;
+$layer1-mainveiw-title: 3;
+
+// blog
+$layer3-stamp: 1;

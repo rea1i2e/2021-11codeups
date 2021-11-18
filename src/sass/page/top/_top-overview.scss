@@ -1,0 +1,6 @@
+.top-overview {
+  margin-bottom: rem(59);
+  @include mq("md") {
+    margin-bottom: rem(174);
+  }
+}

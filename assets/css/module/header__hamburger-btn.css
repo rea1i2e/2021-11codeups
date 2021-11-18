@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.header__hamburger-btn {
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__btn-line {
+  display: block;
+  position: relative;
+  /* バーガー線の位置基準として設定 */
+  width: rem(24);
+  width: rem(24);
+  /* 線の長さと高さ */
+  height: rem(2);
+  height: rem(2);
+  background-color: #fff;
+  /* バーガー線の色 */
+  -webkit-transition: .2s;
+  transition: .2s;
+}

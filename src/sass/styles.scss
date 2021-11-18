@@ -1,0 +1,24 @@
+@import "./function/**";
+@import "./setting/**";
+@import "./base/**";
+@import "./mixin/**";
+@import "./plugin/**";
+@import "./module/**";
+@import "./page/**";
+
+body {
+  // background-color: $white;
+  font-size: rem(16);
+  position: relative;
+  z-index: $layer0-body;
+}
+
+
+// テスト用
+
+
+
+// 作業用
+// * { outline:2px solid red; } 
+// .works { display: none;}
+

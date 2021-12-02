@@ -54,14 +54,14 @@
 </head>
 <body>
 
-  <header class="header">
+  <header class="news-header header">
     <div class="header__header-inner">
       <h1 class="header__site-logo site-logo">
-        <a href="#"><img src="assets/images/common/CodeUps.svg" alt="CodeUpsのロゴ画像"></a>
+        <a href="index.html"><img src="assets/images/common/CodeUps.svg" alt="CodeUpsのロゴ画像"></a>
       </h1><!-- /.page-title -->
       <nav class="header__nav">
         <ul class="header__nav-wrapper">
-          <li class="header__nav-list u-mobile"><a class="header__nav-link" href="#">トップ</a></li>
+          <li class="header__nav-list u-mobile"><a class="header__nav-link" href="index.html">トップ</a></li>
           <li class="header__nav-list"><a class="header__nav-link" href="news.html">お知らせ</a></li>
           <li class="header__nav-list"><a class="header__nav-link" href="#content">事業内容</a></li>
           <li class="header__nav-list"><a class="header__nav-link" href="#works">制作実績</a></li>
@@ -74,40 +74,107 @@
         <span class="header__btn-line"></span>
       </button>
     </div><!-- /.header__header-inner -->
-  </header><!-- /.header -->
+  </header>
 
-  <div class="space"></div><!-- /.space -->
+  <div class="news-page-title page-title">
+    <div class="page-title__image page-title__image--news">
+      <h1 class="page-title__text">お知らせ</h1>
+    </div>
+  </div>
+  <div class="news-breadcrumb breadcrumb">
+    <div class="news-breadcrumb__l-inner l-inner">
+      <ol class="breadcrumb__list"  itemscope itemtype="https://schema.org/BreadcrumbList">
+        <!-- 1つめ -->
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope
+        itemtype="https://schema.org/ListItem">
+        <!-- <a itemprop="item" href="https://rea1i2e.wpx.jp/2021-10codeups/"> -->
+          <a href="index.html">
+            <span itemprop="name">トップ</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope
+        itemtype="https://schema.org/ListItem">
+        <!-- <a itemprop="item" href="https://rea1i2e.wpx.jp/2021-10codeups/news.html"> -->
+          <a href="#">
+            <span itemprop="name">お知らせ一覧</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </div>
+  </div>
 
-  <ol class="breadcrumb"  itemscope itemtype="https://schema.org/BreadcrumbList">
-    <!-- 1つめ -->
-    <li class="breadcrumb__list" itemprop="itemListElement" itemscope
-        itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="https://rea1i2e.wpx.jp/2021-10codeups/">
-          <span itemprop="name">トップ</span>
-      </a>
-      <meta itemprop="position" content="1" />
-    </li>
-      <li class="breadcrumb__list" itemprop="itemListElement" itemscope
-        itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="https://rea1i2e.wpx.jp/2021-10codeups/news.html">
-          <span itemprop="name">お知らせ一覧</span>
-      </a>
-      <meta itemprop="position" content="2" />
-    </li>
-  </ol>
   
-  <div class="news top-news" id="news">
-    <div class="news__l-inner l-inner">
-      <dl class="news__wrapper">
-        <dt class="news__date">2020.07.20</dt>
-        <dd class="news__category">お知らせ</dd>
-        <dd class="news__title"><a class="news__link" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
-      </dl><!-- /.news__wrapper -->
-      <div class="news__btn">
-        <a href="" class="btn btn--pc-small">すべて見る</a>
-      </div><!-- /.news__btn -->
-    </div><!-- /.news__inner l-inner -->
-  </div><!-- /.news -->
+  <div class="news__news-list news-list">
+    <div class="news__l-inner l-inner l-inner--news">
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+      <dl class="news__news-item news-item">
+        <dt class="news-item__date">2020.07.20</dt>
+        <dd class="news-item__category">お知らせ</dd>
+        <dd class="news-item__title"><a class="news-item__link news-item__link--yellow" href="">記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</a></dd>
+      </dl>
+    </div>
+  </div>
+
+<!--pagevavi-->
+<div class='news__wp-pagenavi wp-pagenavi'>
+  <!-- <span class='pages'>3 / 100</span> -->
+  <!-- <a class="first" href="#">« 先頭</a> -->
+  <a class="previouspostslink" rel="prev" href="#">prev</a>
+  <!-- <a class="page smaller" href="#">2</a> -->
+  <span class='current'>1</span>
+  <a class="page larger" href="#">2</a>
+  <a class="page larger" href="#">3</a>
+  <a class="page larger" href="#">4</a>
+  <a class="nextpostslink" rel="next" href="#">next</a>
+  <!-- <a class="last" href="#">最後 »</a> -->
+</div>
+<!--/pagevavi-->
 
   <section class="contact top-contact" id="contact">
     <div class="contact__l-inner l-inner">

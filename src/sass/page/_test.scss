@@ -1,0 +1,12 @@
+.test {
+  background-color: $white;
+  font-size: 0;
+}
+
+.test span, .test a {
+  background-color: green;
+  padding: 0.2em 0.5em;
+  display: inline-block;
+  font-size: rem(16);
+  // display: block;
+}

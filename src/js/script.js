@@ -1,6 +1,6 @@
-$(function () {
+// $(function () {
   
-});
+// });
 
 
 jQuery(function ($) { // この中であればWordpressでも「$」が使用可能になる
@@ -29,15 +29,15 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
 
   // スムーススクロール (絶対パスのリンク先が現在のページであった場合でも作動)
 
-  $(document).on('click', 'a[href*="#"]', function () {
-    let time = 400;
-    let header = $('header').innerHeight();
-    let target = $(this.hash);
-    if (!target.length) return;
-    let targetY = target.offset().top - header;
-    $('html,body').animate({ scrollTop: targetY }, time, 'swing');
-    return false;
-  });
+  // $(document).on('click', 'a[href*="#"]', function () {
+  //   let time = 400;
+  //   let header = $('header').innerHeight();
+  //   let target = $(this.hash);
+  //   if (!target.length) return;
+  //   let targetY = target.offset().top - header;
+  //   $('html,body').animate({ scrollTop: targetY }, time, 'swing');
+  //   return false;
+  // });
   
   
 
@@ -51,7 +51,7 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
 
   // ヘーダーとpagetopボタン
   $(window).on('scroll', function () {
-      if (jQuery('.mainview').height() < jQuery(this).scrollTop()) {
+      if (jQuery('.mainview, .page-title').height() < jQuery(this).scrollTop()) {
           jQuery('.header').addClass('js-change-background-color');
           jQuery('.pagetop').addClass('js-pagetop-appear');
       } else {

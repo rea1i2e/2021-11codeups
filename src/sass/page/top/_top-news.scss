@@ -5,11 +5,28 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    // margin: 0 auto;
     margin-bottom: rem(174);
-    // width: 100%;
-    // max-width: rem(1280);
-    // padding: rem(32) rem(119) rem(194);
-    // padding: rem(32) rem(119) 0;
   }
 }
+
+.top-news__wrapper {
+  // background-color: blue;
+  @include mq("md") {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.top-news__news-item {
+  margin-bottom: rem(28);
+}
+
+.top-news__btn {
+  width:100%;
+  @include mq("md") {
+    margin-left: rem(48);
+    width: rem(134);
+  }
+}
+

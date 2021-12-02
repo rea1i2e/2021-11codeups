@@ -7,14 +7,14 @@
   z-index: $layer1-mainveiw-base;
 }
 
-キャプチャ撮影用
-.mainview__slide0 {
-  width: 100vw;
-  height: 100vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+// キャプチャ撮影用
+// .mainview__slide0 {
+//   width: 100vw;
+//   height: 100vh;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
 
 .mainview__slide {
   animation: anime 18s 0s infinite;

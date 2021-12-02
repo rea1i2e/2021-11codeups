@@ -26,3 +26,9 @@
     padding-left: $padding-pc;
   }
 }
+
+.l-inner--news {
+  @include mq("md") {
+    max-width: $inner-860 + strip-unit($padding-pc) * 2;
+  }
+}
